@@ -51,10 +51,6 @@ public void parseCSV(String fileName, String dateParameter) throws FileNotFoundE
         System.out.println(str);
     }
 
-    
-    
-
-
 }   
 public static void main(String[] args){
     try{
