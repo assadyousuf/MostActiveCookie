@@ -14,6 +14,9 @@
  2) If the entrys maximum is greater than our current maximum clear the printList and add the new maximums cookie name
  3) If the entry maximum is the same as our current maximum add its key (cookie name) on to our current printlist
 
+### Finally:
+1) Just print the printList. 
+
 
 # Assumptions made: 
 1) Only csv files coresponding to the format given -> We can handle wrongly formatted csv files or argument parameters using a regex. 
