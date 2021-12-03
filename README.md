@@ -3,12 +3,13 @@
 
 
 # Main Idea: 
--Loop Through CSV file (For each line):
+### Loop Through CSV file (For each line):
 1) Use the delimiter "," to get the Cookie name and Timestamp for each line
 2) Get the timestamp using "T" as delimeter
 2) Check if cookie timestamp is equal to our date
 3) Add cookie to hashmap if we have never seen it or add 1 to its current count if we have seen it previously
--After looping through CSV file:
+
+### After looping through CSV file:
  1) Loop through hashmap 
  2) If the entrys maximum is greater than our current maximum clear the printList and add the new maximums cookie name
  3) If the entry maximum is the same as our current maximum add its key (cookie name) on to our current printlist
